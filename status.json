@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T15:46:04.794572+00:00",
+  "checkedAt": "2026-10-19T13:39:29.411866+00:00",
   "validation": "official_documentation_only",
   "liveAPITested": false,
   "health": "degraded",
@@ -25,7 +25,7 @@
         "https://docs.x.ai/developers/models.md",
         "https://docs.x.ai/developers/models/grok-4.7.md"
       ],
-      "evidenceSHA256": "5780991f1fdb4c0a569dac7fcb5b946fe0178ac3846c4251cfcd4ba83bcb9941",
+      "evidenceSHA256": "f36b3f56023f5dbd2a9919b9d2a507fa2588adb21191fa52b46785be69c8e4f6",
       "firstSeen": "2026-09-28T14:12:34.765742+00:00",
       "state": "held_due_to_source_failure"
     }
