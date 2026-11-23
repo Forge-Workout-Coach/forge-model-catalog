@@ -1,17 +1,14 @@
 {
-  "checkedAt": "2026-11-16T16:08:14.902216+00:00",
+  "checkedAt": "2026-11-23T18:30:04.778752+00:00",
   "validation": "official_documentation_only",
   "liveAPITested": false,
   "health": "degraded",
   "providers": {
     "openAI": {
-      "recommended": "gpt-6-astra",
-      "sources": [
-        "https://developers.openai.com/api/docs/models.md",
-        "https://developers.openai.com/api/docs/models/gpt-6-astra.md"
-      ],
-      "evidenceSHA256": "42b1a8ece1899f3334b13f94fcc810698f6f3f43970a3f053bdea8eff50e0eb2",
-      "state": "unchanged"
+      "state": "held",
+      "reason": "unsupported_or_unproven_request_profile",
+      "retained": "gpt-6-astra",
+      "source": "https://developers.openai.com/api/docs/models.md"
     },
     "claude": {
       "state": "held",
@@ -25,7 +22,7 @@
         "https://docs.x.ai/developers/models.md",
         "https://docs.x.ai/developers/models/grok-4.7.md"
       ],
-      "evidenceSHA256": "28070ae919803ea2c3730edb91e602ba4a6a5c7230f6fab4362c3966e9860791",
+      "evidenceSHA256": "7d4d0a2dd35ff4c03c3937e32b0eda1c8faae453bb94ba956c95859a8d87a639",
       "firstSeen": "2026-09-28T14:12:34.765742+00:00",
       "state": "held_due_to_source_failure"
     }
